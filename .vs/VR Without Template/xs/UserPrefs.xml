@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{9CF63707-299E-89E2-5901-60C309F60DDF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GolfPlayerController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GolfPlayerController.cs" Line="13" Column="51" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VR Without Template" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GolfPlayerController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6d3fdadb-06ad-4593-9e1b-356da33120c4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
