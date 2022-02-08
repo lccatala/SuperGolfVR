@@ -90,28 +90,30 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2584}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 2628}
     - Class: 114
-      Script: {instanceID: 3528}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 4112}
+      Script: {instanceID: 3530}
     - Class: 114
-      Script: {instanceID: 4308}
+      Script: {instanceID: 4114}
     - Class: 114
-      Script: {instanceID: 4488}
+      Script: {instanceID: 4310}
     - Class: 114
-      Script: {instanceID: 4788}
+      Script: {instanceID: 4490}
     - Class: 114
-      Script: {instanceID: 4828}
+      Script: {instanceID: 4790}
     - Class: 114
-      Script: {instanceID: 5176}
+      Script: {instanceID: 4830}
     - Class: 114
-      Script: {instanceID: 5582}
+      Script: {instanceID: 5178}
     - Class: 114
-      Script: {instanceID: 5606}
+      Script: {instanceID: 5584}
     - Class: 114
-      Script: {instanceID: 52294}
+      Script: {instanceID: 5608}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -558,6 +560,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRSkeletonRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: ccb5cb3320380d404101a6d1fbdb086c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GoalController
   - hash:
       serializedVersion: 2
       Hash: cd06391f9225499fb9ea605ab668b015
@@ -1790,7 +1798,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: ab5955db5aa480dd0a75bb2e45c41b4d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GolfPlayerController
@@ -2052,12 +2060,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
-  - hash:
-      serializedVersion: 2
-      Hash: ccb5cb3320380d404101a6d1fbdb086c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GoalController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
