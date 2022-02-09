@@ -22,7 +22,6 @@ public class GoalController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        print("fixedupdate");
     }
 
     private void OnTriggerEnter(Collider other)

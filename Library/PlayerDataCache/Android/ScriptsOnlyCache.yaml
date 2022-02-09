@@ -5,6 +5,9 @@ ScriptsOnlyBuild:
     - GolfPlayerController
     - OVRTouchSample.Hand
     - OVRTouchSample.HandPose
+    - OnlineObject
+    - UsernameTextController
+    - WebsocketClient
     Oculus.Spatializer.dll:
     - ONSPSettings
     Oculus.VR.Editor.dll:
@@ -23,6 +26,11 @@ ScriptsOnlyBuild:
     - OVRScreenFade
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -55,6 +63,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
@@ -73,12 +83,16 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1942}
+    - Class: 114
+      Script: {instanceID: 1998}
     - Class: 114
       Script: {instanceID: 2014}
     - Class: 114
@@ -87,6 +101,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2250}
     - Class: 114
       Script: {instanceID: 2306}
+    - Class: 114
+      Script: {instanceID: 2392}
     - Class: 114
       Script: {instanceID: 2584}
     - Class: 114
@@ -106,12 +122,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4830}
     - Class: 114
+      Script: {instanceID: 4920}
+    - Class: 114
       Script: {instanceID: 5178}
+    - Class: 114
+      Script: {instanceID: 5302}
     - Class: 114
       Script: {instanceID: 5584}
     - Class: 114
       Script: {instanceID: 5608}
+    - Class: 114
+      Script: {instanceID: 447110}
+    - Class: 114
+      Script: {instanceID: 447112}
+    - Class: 114
+      Script: {instanceID: 1091146}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 134
       Script: {instanceID: 0}
@@ -2060,6 +2088,30 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
+  - hash:
+      serializedVersion: 2
+      Hash: 375c0f9d44575542b279169a84e7e9e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WebsocketClient
+  - hash:
+      serializedVersion: 2
+      Hash: 83eb4016955dd9c403f4c263bd883d98
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnlineObject
+  - hash:
+      serializedVersion: 2
+      Hash: 76c60dda48e71e6582b0377a89ee47e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenuController
+  - hash:
+      serializedVersion: 2
+      Hash: 83e769eee07fc231384c812eedbb8224
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UsernameTextController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
