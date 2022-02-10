@@ -33,13 +33,11 @@ public class GolfPlayerController : MonoBehaviour
         if (ball.GetComponent<Rigidbody>().velocity.magnitude > minSpeedToTeleport)
         {
             canTeleport = true;
-            ball.GetComponent<Renderer>().material.color = Color.red;
         }
         else if (canTeleport)
         {
             TeleportNearBall();
             canTeleport = false;
-            ball.GetComponent<Renderer>().material.color = Color.green;
         }
 
     }

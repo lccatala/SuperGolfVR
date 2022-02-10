@@ -5,12 +5,21 @@ using UnityEngine;
 public class UsernameTextController : MonoBehaviour
 {
 
-    public GameObject player;
+    private GameObject player;
+    public TextMesh textMesh;
+
+    private void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (textMesh != null)
+        { 
+            textMesh.text = OnlineObject.username;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
